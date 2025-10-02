@@ -42,7 +42,7 @@ export default function FilmPreview({ film }: { film: Film }) {
                     <FilmTitle><h3>{film.title}</h3></FilmTitle>
                     <FilmInfo><p>Year: {film.release_date}</p>
                     <p>Director: {film.director}</p>
-                        <p>Running Time: {film.running_time}</p>
+                        <p>Running Time: {film.running_time} minutes</p>
                         <p>Rotten Tomatoes Score: {film.rt_score}</p></FilmInfo>
                 </FilmCard>
         </div>
